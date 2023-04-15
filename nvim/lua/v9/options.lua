@@ -13,6 +13,8 @@ vim.opt.tabstop = 2
 vim.opt.shiftwidth = 2
 vim.opt.shiftround = true
 vim.opt.expandtab = true
+vim.opt.scrolloff = 8
+vim.opt.sidescrolloff = 8
 
 vim.cmd [[ set noswapfile ]]
 
