@@ -24,6 +24,15 @@ return require('packer').startup(function(use)
   use 'nvim-lualine/lualine.nvim'
   use 'windwp/nvim-autopairs'
 
+  use 'tpope/vim-fugitive'
+
+  -- pretty fold
+  use{ 'anuvyklack/pretty-fold.nvim',
+    config = function()
+        require('pretty-fold').setup()
+    end
+  }
+
   -- Treesitter
   use {
     "nvim-treesitter/nvim-treesitter",
