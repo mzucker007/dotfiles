@@ -1,6 +1,0 @@
-require("v9.plugin_config.colorscheme")
-require("v9.plugin_config.lualine")
-require("v9.plugin_config.nvim-tree")
-require("v9.plugin_config.treesitter")
-require("v9.plugin_config.autopairs")
--- require("v9.plugin_config.nvim-scrollbar")
