@@ -31,3 +31,11 @@ keymap.set("n", "<leader>tx", "<cmd>tabclose<CR>", { desc = "Close current tab" 
 keymap.set("n", "<leader>tn", "<cmd>tabn<CR>", { desc = "Go to next tab" }) --  go to next tab
 keymap.set("n", "<leader>tp", "<cmd>tabp<CR>", { desc = "Go to previous tab" }) --  go to previous tab
 keymap.set("n", "<leader>tf", "<cmd>tabnew %<CR>", { desc = "Open current buffer in new tab" }) --  move current buffer to new tab
+
+-- use tab to move between buffers
+-- nmap <tab> :bn<cr>
+-- nmap <s-tab> :bp<cr>
+-- This works, but breaks nvim-tree
+vim.api.nvim_set_keymap('n', '<Tab>', ':bn<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<S-Tab>', ':bp<CR>', { noremap = true, silent = true })
+

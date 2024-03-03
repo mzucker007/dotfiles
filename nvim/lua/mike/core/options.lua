@@ -20,6 +20,9 @@ opt.smartcase = true -- if you include mixed case in your search, assumes you wa
 -- cursor line
 opt.cursorline = true -- highlight the current cursor line
 
+-- set working directory to file in buffer
+vim.cmd('cd %:p:h')
+
 -- appearance
 
 -- turn on termguicolors for nightfly colorscheme to work
