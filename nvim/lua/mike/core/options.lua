@@ -22,7 +22,7 @@ opt.cursorline = true -- highlight the current cursor line
 
 -- set working directory to file in buffer
 -- vim.cmd('cd %:p:h')
-opt.autochdir = true -- set working directory to file in buffer
+-- opt.autochdir = true -- set working directory to file in buffer
 
 -- appearance
 
