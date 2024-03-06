@@ -21,7 +21,8 @@ opt.smartcase = true -- if you include mixed case in your search, assumes you wa
 opt.cursorline = true -- highlight the current cursor line
 
 -- set working directory to file in buffer
-vim.cmd('cd %:p:h')
+-- vim.cmd('cd %:p:h')
+opt.autochdir = true -- set working directory to file in buffer
 
 -- appearance
 
