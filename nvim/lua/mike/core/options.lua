@@ -49,3 +49,6 @@ vim.cmd [[set foldmethod=expr]]
 vim.cmd [[set foldexpr=nvim_treesitter#foldexpr()]]
 vim.cmd [[set nofoldenable]]
 
+-- scroll lines
+vim.cmd [[set scrolloff=4]]
+
